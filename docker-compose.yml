@@ -20,4 +20,5 @@ volumes:
   db_data:
 
 networks:
-  wordpress-dev:
+  default:
+    name: wordpress-dev
